@@ -1,0 +1,100 @@
+.banner{
+    position: relative;
+  }
+  .banner img{
+    max-width: 100%
+  }
+  .banner .welcome{
+    position: relative;
+    left: 0px;
+    top: 30%
+  }
+  section{
+      color: white;
+      -webkit-text-stroke: 1px yellow;
+    -webkit-text-fill-color: black;
+  }
+
+  div{
+    position: relative;
+    color: white;
+    -webkit-text-stroke: 1px yellow;
+    -webkit-text-fill-color: black;
+  }
+  body{
+    background-color: black;
+  }
+  
+  h1 {
+      color: white;
+      -webkit-text-stroke: 1px yellow;
+      -webkit-text-fill-color: black;
+      position: relative;
+      left: 30px;
+      right: 10px;
+      bottom: 1px;
+      top: 4px;
+    
+    z-index: 2;  
+    
+    /*It decides which element will show on top of the 
+    other. The first to show, is the one with the 
+    greatest index */
+  }
+  article
+  {
+    position: static;
+    color: white;
+    -webkit-text-stroke: 1px yellow;
+    -webkit-text-fill-color: black;
+  }
+  
+  /**Sticky Position**
+  
+  This property will stick the element to the screen when you 
+  reach its scroll position*/
+  
+  nav {
+    position: -webkit-sticky;   /* For Safari */
+    position: sticky;
+    left: 20px;
+    right: 60px;
+    max-width: min-content;
+    top: 13px;
+    background-color: black;
+  }
+a:link{
+    color: yellow;
+}
+a:visited{
+    color: greenyellow;
+}
+a:hover{
+    color: lightblue;
+}
+a:active{
+    color: red;
+}
+
+  /*NOTES ABOUT THE Z-INDEX*
+
+By default, the *z-index* of an element is zero, so if you change the 
+*z-index* to something above or below that value, you are putting that 
+element above or below the ones you didn't change.
+Another important thing to be aware of is that the *z-index* only worked 
+for elements that have a position different from the standard. This 
+means that, for elements with Static position, this won't work.
+So, you can only make two elements interact in the z plane if they both 
+have a define position as: Relative, Absolute, Fixed, ... */
+
+footer {
+  position: absolute;
+}
+input
+{
+    background-color: darkblue;
+}
+
+tag_name_2 {
+  position: relative;      /* tag_name_1 will be below the tag_name_2 */
+}

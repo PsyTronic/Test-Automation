@@ -1,0 +1,11 @@
+2022-06-08T17:42:45.414Z INFO @wdio/local-runner: Run worker command: run
+2022-06-08T17:42:48.214Z INFO devtools:puppeteer: Initiate new session using the DevTools protocol
+2022-06-08T17:42:48.217Z ERROR @wdio/runner: Error: Couldn't find executable for browser
+    at launchBrowser (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\devtools\build\launcher.js:141:15)
+    at launch (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\devtools\build\launcher.js:182:16)
+    at Function.newSession (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\devtools\build\index.js:50:54)
+    at remote (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\webdriverio\build\index.js:73:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Runner._startSession (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\@wdio\runner\build\index.js:223:56)
+    at async Runner._initSession (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\@wdio\runner\build\index.js:176:25)
+    at async Runner.run (E:\WORK\WebDriverIO Exercises\TA-100\Exercise 02\organizingTests\node_modules\@wdio\runner\build\index.js:88:19)

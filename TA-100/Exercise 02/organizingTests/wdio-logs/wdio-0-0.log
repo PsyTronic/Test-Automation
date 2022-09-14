@@ -1,0 +1,74 @@
+2022-06-08T17:42:45.410Z INFO @wdio/local-runner: Run worker command: run
+2022-06-08T17:42:48.214Z INFO devtools:puppeteer: Initiate new session using the DevTools protocol
+2022-06-08T17:42:48.219Z INFO devtools: Launch Google Chrome with flags: --enable-automation --disable-popup-blocking --disable-extensions --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-sync --metrics-recording-only --disable-default-apps --mute-audio --no-first-run --no-default-browser-check --disable-hang-monitor --disable-prompt-on-repost --disable-client-side-phishing-detection --password-store=basic --use-mock-keychain --disable-component-extensions-with-background-pages --disable-breakpad --disable-dev-shm-usage --disable-ipc-flooding-protection --disable-renderer-backgrounding --force-fieldtrials=*BackgroundTracing/default/ --enable-features=NetworkService,NetworkServiceInProcess --disable-features=site-per-process,TranslateUI,BlinkGenPropertyTrees --window-position=0,0 --window-size=1200,900
+2022-06-08T17:42:52.763Z INFO devtools: Connect Puppeteer with browser on port 60124
+2022-06-08T17:43:01.293Z INFO devtools: COMMAND navigateTo("https://the-internet.herokuapp.com/key_presses")
+2022-06-08T17:43:04.177Z INFO devtools: RESULT null
+2022-06-08T17:43:04.248Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.490Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.514Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.559Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-1' }
+2022-06-08T17:43:04.591Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.592Z INFO devtools: COMMAND getElementAttribute("ELEMENT-1", "You entered: UP")
+2022-06-08T17:43:04.615Z INFO devtools: RESULT null
+2022-06-08T17:43:04.621Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.631Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.639Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-2' }
+2022-06-08T17:43:04.662Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.664Z INFO devtools: COMMAND getElementAttribute("ELEMENT-2", "You entered: UP")
+2022-06-08T17:43:04.687Z INFO devtools: RESULT null
+2022-06-08T17:43:04.697Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.702Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.705Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-3' }
+2022-06-08T17:43:04.715Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.716Z INFO devtools: COMMAND getElementAttribute("ELEMENT-3", "You entered: DOWN")
+2022-06-08T17:43:04.729Z INFO devtools: RESULT null
+2022-06-08T17:43:04.740Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.743Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.745Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-4' }
+2022-06-08T17:43:04.754Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.755Z INFO devtools: COMMAND getElementAttribute("ELEMENT-4", "You entered: DOWN")
+2022-06-08T17:43:04.785Z INFO devtools: RESULT null
+2022-06-08T17:43:04.788Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.790Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.792Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-5' }
+2022-06-08T17:43:04.798Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.799Z INFO devtools: COMMAND getElementAttribute("ELEMENT-5", "You entered: LEFT")
+2022-06-08T17:43:04.812Z INFO devtools: RESULT null
+2022-06-08T17:43:04.829Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.834Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.835Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-6' }
+2022-06-08T17:43:04.843Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.845Z INFO devtools: COMMAND getElementAttribute("ELEMENT-6", "You entered: RIGHT")
+2022-06-08T17:43:04.861Z INFO devtools: RESULT null
+2022-06-08T17:43:04.874Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.877Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.880Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-7' }
+2022-06-08T17:43:04.896Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.897Z INFO devtools: COMMAND getElementAttribute("ELEMENT-7", "You entered: LEFT")
+2022-06-08T17:43:04.940Z INFO devtools: RESULT null
+2022-06-08T17:43:04.955Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.961Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:04.965Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-8' }
+2022-06-08T17:43:04.972Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:04.973Z INFO devtools: COMMAND getElementAttribute("ELEMENT-8", "You entered: RIGHT")
+2022-06-08T17:43:04.990Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:04.991Z INFO devtools: RESULT null
+2022-06-08T17:43:04.995Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:05.008Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-9' }
+2022-06-08T17:43:05.021Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:05.021Z INFO devtools: COMMAND getElementAttribute("ELEMENT-9", "You entered: B")
+2022-06-08T17:43:05.029Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:05.030Z INFO devtools: RESULT null
+2022-06-08T17:43:05.033Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:05.036Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-10' }
+2022-06-08T17:43:05.043Z INFO devtools: COMMAND performActions(<object>)
+2022-06-08T17:43:05.044Z INFO devtools: COMMAND getElementAttribute("ELEMENT-10", "You entered: A")
+2022-06-08T17:43:05.058Z INFO devtools: RESULT null
+2022-06-08T17:43:05.071Z INFO devtools: COMMAND releaseActions()
+2022-06-08T17:43:05.073Z INFO devtools: COMMAND findElement("css selector", "#result")
+2022-06-08T17:43:05.074Z INFO devtools: RESULT { 'element-6066-11e4-a52e-4f735466cecf': 'ELEMENT-11' }
+2022-06-08T17:43:05.088Z INFO devtools: COMMAND getElementAttribute("ELEMENT-11", "You entered: ENTER")
+2022-06-08T17:43:05.089Z INFO devtools: COMMAND getElementAttribute("ELEMENT-1", "You entered: UP")
+2022-06-08T17:43:05.092Z INFO devtools: COMMAND deleteSession()
+2022-06-08T17:43:05.096Z INFO devtools: RESULT null
